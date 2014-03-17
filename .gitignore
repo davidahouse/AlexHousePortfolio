@@ -1,0 +1,12 @@
+*.DS_Store
+*.debug
+*.csl
+*.cso
+*.rapc
+*.signed
+*.swp
+*.swoi
+*.xccheckout
+xcuserdata
+project.xcworkspace
+build
