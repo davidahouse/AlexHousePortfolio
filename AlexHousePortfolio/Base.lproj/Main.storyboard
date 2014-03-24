@@ -1,27 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="rSB-ze-j12">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--View Controller-->
+        <scene sceneID="gSc-b5-hDT">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="rSB-ze-j12" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="JZH-Pj-C0J"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bex-gR-XD0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <view key="view" contentMode="scaleToFill" id="My4-0d-6gE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01_Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qv2-lu-JOP">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02_Struts.png" translatesAutoresizingMaskIntoConstraints="NO" id="IFk-E6-DGa">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03_TV_Shadow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sjc-tY-zNC">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="04_TV.png" translatesAutoresizingMaskIntoConstraints="NO" id="R9r-fK-rt1">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="Qv2-lu-JOP" id="4OT-gK-gOs"/>
+                        <outlet property="layer1Image" destination="IFk-E6-DGa" id="VbH-T1-LhW"/>
+                        <outlet property="layer2Image" destination="Sjc-tY-zNC" id="LmI-a9-4Ja"/>
+                        <outlet property="layer3Image" destination="R9r-fK-rt1" id="0JQ-H7-Unr"/>
+                        <segue destination="BKe-eP-9yM" kind="modal" identifier="ToDetailsViewController" customClass="ZoomOutSegue" modalPresentationStyle="fullScreen" id="7gh-2x-7K4"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N3V-1V-eMU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-115" y="-491"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="ECr-jj-cbR">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" id="BKe-eP-9yM" customClass="DetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t4v-u2-1Bj"/>
+                        <viewControllerLayoutGuide type="bottom" id="rk2-Jc-2hw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="07Y-Ph-NEs">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eYY-QO-OhY">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjZ-hU-n6L">
+                                <rect key="frame" x="960" y="42" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="donePressed:" destination="BKe-eP-9yM" eventType="touchUpInside" id="fAK-jK-mJU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eYY-QO-OhY" secondAttribute="trailing" id="lWL-b9-DOq"/>
+                            <constraint firstItem="rk2-Jc-2hw" firstAttribute="top" secondItem="eYY-QO-OhY" secondAttribute="bottom" id="oD7-fn-AQG"/>
+                            <constraint firstItem="eYY-QO-OhY" firstAttribute="top" secondItem="07Y-Ph-NEs" secondAttribute="top" id="r5h-so-CUa"/>
+                            <constraint firstItem="eYY-QO-OhY" firstAttribute="leading" secondItem="07Y-Ph-NEs" secondAttribute="leading" id="y4w-Au-FRY"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="scrollerView" destination="eYY-QO-OhY" id="dca-nT-c7b"/>
+                        <segue destination="KzH-Xm-9z6" kind="unwind" identifier="BackToMain" unwindAction="returnToMainView:" id="T4G-Jg-m7P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3u-io-PHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KzH-Xm-9z6" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="-1049"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="01_Background.png" width="1024" height="769"/>
+        <image name="02_Struts.png" width="1024" height="769"/>
+        <image name="03_TV_Shadow.png" width="1024" height="769"/>
+        <image name="04_TV.png" width="1024" height="769"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -1,0 +1,40 @@
+{
+  "sections":
+  [
+      {
+        "viewFrame": "112,180,264,148",
+        "videoFile": "",
+        "sectionText": "",
+        "thumbnail": "Slime_02.jpg",
+        "images": [
+          "Slime_02.jpg",
+          "Slime_02.jpg",
+          "Slime_02.jpg"
+        ]
+      },
+      {
+        "viewFrame": "444,33,204,115",
+        "thumbnail": "Slime_02.jpg"
+      },
+      {
+        "viewFrame": "538,245,158,89",
+        "thumbnail": "Slime_02.jpg"
+      },
+      {
+        "viewFrame": "766,83,159,91",
+        "thumbnail": "Slime_02.jpg"
+      },
+      {
+        "viewFrame": "83,488,205,115",
+        "thumbnail": "Slime_02.jpg"
+      },
+      {
+        "viewFrame": "342,607,180,103",
+        "thumbnail": "Slime_02.jpg"
+      },
+      {
+        "viewFrame": "758,517,205,117",
+        "thumbnail": "Slime_02.jpg"
+      }
+  ]
+}
