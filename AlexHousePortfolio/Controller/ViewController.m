@@ -10,12 +10,15 @@
 #import "DetailsViewController.h"
 #import "ZoomOutSegue.h"
 #import "ZoomInSegue.h"
+#import "TransitionDelegate.h"
 
 @interface ViewController ()
 
 #pragma mark - Properties
 @property (nonatomic,strong) NSArray *sections;
 @property (nonatomic,strong) NSDictionary *selectedSection;
+@property (nonatomic, strong) TransitionDelegate *transitionController;
+@property (nonatomic,assign) CGRect selectedFrame;
 
 #pragma mark - IBOutlets
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
@@ -54,6 +57,8 @@
         self.sections = (NSArray *)jsonObject[@"sections"];
         [self loadSections];
     }
+    
+    self.transitionController = [[TransitionDelegate alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
@@ -95,6 +100,8 @@
             
             NSLog(@"image touched with frame: %@",section[@"viewFrame"]);
             self.selectedSection = section;
+            self.selectedFrame = thumbFrame;
+            self.transitionController.referenceFrame = thumbFrame;
             [self performSegueWithIdentifier:@"ToDetailsViewController" sender:self];
         }
     }
@@ -104,6 +111,7 @@
     
     if ( [segue.identifier isEqualToString:@"ToDetailsViewController"] ) {
         DetailsViewController *dvc = (DetailsViewController *)segue.destinationViewController;
+        dvc.transitioningDelegate = self.transitionController;
         dvc.section = self.selectedSection;
     }
     

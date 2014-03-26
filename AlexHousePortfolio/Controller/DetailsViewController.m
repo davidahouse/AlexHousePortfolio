@@ -7,6 +7,7 @@
 //
 
 #import "DetailsViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DetailsViewController ()
 
@@ -16,6 +17,7 @@
 #pragma mark - Properties
 @property (nonatomic,strong) UIImageView *currentImage;
 - (IBAction)donePressed:(id)sender;
+- (IBAction)videoPressed:(id)sender;
 
 @end
 
@@ -122,6 +124,18 @@
 
 - (IBAction)donePressed:(id)sender {
     [self performSegueWithIdentifier:@"BackToMain" sender:self];
+}
+
+- (IBAction)videoPressed:(id)sender {
+    
+    if ( self.section[@"videoFile"] ) {
+        
+        NSBundle *bundle = [NSBundle mainBundle];
+        NSString *moviePath = [bundle pathForResource:self.section[@"videoFile"] ofType:@"mp4"];
+        NSURL *movieURL = [NSURL fileURLWithPath:moviePath];
+        MPMoviePlayerViewController *theMovie = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        [self presentMoviePlayerViewControllerAnimated:theMovie];
+    }
 }
 
 @end

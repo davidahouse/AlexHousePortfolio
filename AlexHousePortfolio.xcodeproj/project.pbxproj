@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94B9340518E251780093CFC5 /* Animation_v03.0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933E518E251780093CFC5 /* Animation_v03.0056.png */; };
+		94B9340618E251780093CFC5 /* Animation_v03.0104.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933E618E251780093CFC5 /* Animation_v03.0104.png */; };
+		94B9340718E251780093CFC5 /* BrandingTime_Video_Intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 94B933E718E251780093CFC5 /* BrandingTime_Video_Intro.mp4 */; };
+		94B9340818E251780093CFC5 /* House_Screen_Gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933E918E251780093CFC5 /* House_Screen_Gameover.png */; };
+		94B9340918E251780093CFC5 /* House_Screen_Gameplay01.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933EA18E251780093CFC5 /* House_Screen_Gameplay01.png */; };
+		94B9340A18E251780093CFC5 /* House_Screen_Gameplay02.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933EB18E251780093CFC5 /* House_Screen_Gameplay02.png */; };
+		94B9340B18E251780093CFC5 /* House_Screen_Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933EC18E251780093CFC5 /* House_Screen_Menu.png */; };
+		94B9340C18E251780093CFC5 /* House_Screen_Setup.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B933ED18E251780093CFC5 /* House_Screen_Setup.png */; };
+		94B9340D18E251780093CFC5 /* Game_Screen01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933EF18E251780093CFC5 /* Game_Screen01.jpg */; };
+		94B9340E18E251780093CFC5 /* Game_Screen02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F018E251780093CFC5 /* Game_Screen02.jpg */; };
+		94B9340F18E251780093CFC5 /* Game_Screen03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F118E251780093CFC5 /* Game_Screen03.jpg */; };
+		94B9341018E251780093CFC5 /* Game_Screen04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F218E251780093CFC5 /* Game_Screen04.jpg */; };
+		94B9341118E251780093CFC5 /* ITGM_320_House_screenshot_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F318E251780093CFC5 /* ITGM_320_House_screenshot_01.pdf */; };
+		94B9341218E251780093CFC5 /* ITGM_320_House_screenshot_02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F418E251780093CFC5 /* ITGM_320_House_screenshot_02.pdf */; };
+		94B9341318E251780093CFC5 /* ITGM_320_House_screenshot_03.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F518E251780093CFC5 /* ITGM_320_House_screenshot_03.pdf */; };
+		94B9341418E251780093CFC5 /* ITGM_320_House_screenshot_04.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F618E251780093CFC5 /* ITGM_320_House_screenshot_04.pdf */; };
+		94B9341518E251780093CFC5 /* AHouse_Jelly_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F818E251780093CFC5 /* AHouse_Jelly_01.jpg */; };
+		94B9341618E251780093CFC5 /* AHouse_Jelly_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933F918E251780093CFC5 /* AHouse_Jelly_02.jpg */; };
+		94B9341718E251780093CFC5 /* Meeper_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933FA18E251780093CFC5 /* Meeper_01.jpg */; };
+		94B9341818E251780093CFC5 /* Meeper_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933FB18E251780093CFC5 /* Meeper_02.jpg */; };
+		94B9341918E251780093CFC5 /* Meeper_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933FC18E251780093CFC5 /* Meeper_03.jpg */; };
+		94B9341A18E251780093CFC5 /* Slime_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933FE18E251780093CFC5 /* Slime_01.jpg */; };
+		94B9341B18E251780093CFC5 /* Slime_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B933FF18E251780093CFC5 /* Slime_02.jpg */; };
+		94B9341C18E251780093CFC5 /* Slime_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B9340018E251780093CFC5 /* Slime_03.jpg */; };
+		94B9341D18E251780093CFC5 /* Slime_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B9340118E251780093CFC5 /* Slime_04.jpg */; };
+		94B9341E18E251780093CFC5 /* Slime_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B9340218E251780093CFC5 /* Slime_05.jpg */; };
+		94B9341F18E251780093CFC5 /* Slime_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B9340318E251780093CFC5 /* Slime_06.jpg */; };
+		94B9342018E251780093CFC5 /* Slime_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B9340418E251780093CFC5 /* Slime_07.jpg */; };
+		94B9342218E256F10093CFC5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B9342118E256F10093CFC5 /* MediaPlayer.framework */; };
 		94C4B5D818D7BEC80049B97B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C4B5D718D7BEC80049B97B /* Foundation.framework */; };
 		94C4B5DA18D7BEC80049B97B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C4B5D918D7BEC80049B97B /* CoreGraphics.framework */; };
 		94C4B5DC18D7BEC80049B97B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C4B5DB18D7BEC80049B97B /* UIKit.framework */; };
@@ -26,10 +55,11 @@
 		94C4B61C18D7D40A0049B97B /* foreground.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C4B61818D7D40A0049B97B /* foreground.png */; };
 		94C4B61D18D7D40A0049B97B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C4B61918D7D40A0049B97B /* background@2x.png */; };
 		94C4B61E18D7D40A0049B97B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C4B61A18D7D40A0049B97B /* background.png */; };
-		94D7990318DFAA2A00999D1F /* Slime_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94D7990218DFAA2A00999D1F /* Slime_02.jpg */; };
 		94D7990618DFB1F400999D1F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7990518DFB1F400999D1F /* DetailsViewController.m */; };
 		94D7990918E092F400999D1F /* ZoomOutSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7990818E092F400999D1F /* ZoomOutSegue.m */; };
 		94D7990C18E0942900999D1F /* ZoomInSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7990B18E0942900999D1F /* ZoomInSegue.m */; };
+		94EB4C6718E0EFDA00EC9E9F /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EB4C6318E0EFDA00EC9E9F /* TransitionDelegate.m */; };
+		94EB4C6818E0EFDA00EC9E9F /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EB4C6518E0EFDA00EC9E9F /* TransitionController.m */; };
 		94F077A518DF731E00A6872F /* 04_TV@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F077A118DF731E00A6872F /* 04_TV@2x.png */; };
 		94F077A618DF731E00A6872F /* 03_TV_Shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F077A218DF731E00A6872F /* 03_TV_Shadow@2x.png */; };
 		94F077A718DF731E00A6872F /* 02_Struts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F077A318DF731E00A6872F /* 02_Struts@2x.png */; };
@@ -47,6 +77,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94B933E518E251780093CFC5 /* Animation_v03.0056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animation_v03.0056.png; sourceTree = "<group>"; };
+		94B933E618E251780093CFC5 /* Animation_v03.0104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animation_v03.0104.png; sourceTree = "<group>"; };
+		94B933E718E251780093CFC5 /* BrandingTime_Video_Intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandingTime_Video_Intro.mp4; sourceTree = "<group>"; };
+		94B933E918E251780093CFC5 /* House_Screen_Gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House_Screen_Gameover.png; sourceTree = "<group>"; };
+		94B933EA18E251780093CFC5 /* House_Screen_Gameplay01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House_Screen_Gameplay01.png; sourceTree = "<group>"; };
+		94B933EB18E251780093CFC5 /* House_Screen_Gameplay02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House_Screen_Gameplay02.png; sourceTree = "<group>"; };
+		94B933EC18E251780093CFC5 /* House_Screen_Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House_Screen_Menu.png; sourceTree = "<group>"; };
+		94B933ED18E251780093CFC5 /* House_Screen_Setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House_Screen_Setup.png; sourceTree = "<group>"; };
+		94B933EF18E251780093CFC5 /* Game_Screen01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Game_Screen01.jpg; sourceTree = "<group>"; };
+		94B933F018E251780093CFC5 /* Game_Screen02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Game_Screen02.jpg; sourceTree = "<group>"; };
+		94B933F118E251780093CFC5 /* Game_Screen03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Game_Screen03.jpg; sourceTree = "<group>"; };
+		94B933F218E251780093CFC5 /* Game_Screen04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Game_Screen04.jpg; sourceTree = "<group>"; };
+		94B933F318E251780093CFC5 /* ITGM_320_House_screenshot_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITGM_320_House_screenshot_01.pdf; sourceTree = "<group>"; };
+		94B933F418E251780093CFC5 /* ITGM_320_House_screenshot_02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITGM_320_House_screenshot_02.pdf; sourceTree = "<group>"; };
+		94B933F518E251780093CFC5 /* ITGM_320_House_screenshot_03.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITGM_320_House_screenshot_03.pdf; sourceTree = "<group>"; };
+		94B933F618E251780093CFC5 /* ITGM_320_House_screenshot_04.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITGM_320_House_screenshot_04.pdf; sourceTree = "<group>"; };
+		94B933F818E251780093CFC5 /* AHouse_Jelly_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AHouse_Jelly_01.jpg; sourceTree = "<group>"; };
+		94B933F918E251780093CFC5 /* AHouse_Jelly_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AHouse_Jelly_02.jpg; sourceTree = "<group>"; };
+		94B933FA18E251780093CFC5 /* Meeper_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meeper_01.jpg; sourceTree = "<group>"; };
+		94B933FB18E251780093CFC5 /* Meeper_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meeper_02.jpg; sourceTree = "<group>"; };
+		94B933FC18E251780093CFC5 /* Meeper_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meeper_03.jpg; sourceTree = "<group>"; };
+		94B933FE18E251780093CFC5 /* Slime_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_01.jpg; sourceTree = "<group>"; };
+		94B933FF18E251780093CFC5 /* Slime_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_02.jpg; sourceTree = "<group>"; };
+		94B9340018E251780093CFC5 /* Slime_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_03.jpg; sourceTree = "<group>"; };
+		94B9340118E251780093CFC5 /* Slime_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_04.jpg; sourceTree = "<group>"; };
+		94B9340218E251780093CFC5 /* Slime_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_05.jpg; sourceTree = "<group>"; };
+		94B9340318E251780093CFC5 /* Slime_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_06.jpg; sourceTree = "<group>"; };
+		94B9340418E251780093CFC5 /* Slime_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_07.jpg; sourceTree = "<group>"; };
+		94B9342118E256F10093CFC5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		94C4B5D418D7BEC80049B97B /* AlexHousePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexHousePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C4B5D718D7BEC80049B97B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94C4B5D918D7BEC80049B97B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,13 +130,16 @@
 		94C4B61818D7D40A0049B97B /* foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foreground.png; path = Resources/Images/foreground.png; sourceTree = "<group>"; };
 		94C4B61918D7D40A0049B97B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/Images/background@2x.png"; sourceTree = "<group>"; };
 		94C4B61A18D7D40A0049B97B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/Images/background.png; sourceTree = "<group>"; };
-		94D7990218DFAA2A00999D1F /* Slime_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slime_02.jpg; sourceTree = "<group>"; };
 		94D7990418DFB1F400999D1F /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = Controller/DetailsViewController.h; sourceTree = "<group>"; };
 		94D7990518DFB1F400999D1F /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = Controller/DetailsViewController.m; sourceTree = "<group>"; };
 		94D7990718E092F400999D1F /* ZoomOutSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoomOutSegue.h; path = View/ZoomOutSegue.h; sourceTree = "<group>"; };
 		94D7990818E092F400999D1F /* ZoomOutSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoomOutSegue.m; path = View/ZoomOutSegue.m; sourceTree = "<group>"; };
 		94D7990A18E0942900999D1F /* ZoomInSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoomInSegue.h; path = View/ZoomInSegue.h; sourceTree = "<group>"; };
 		94D7990B18E0942900999D1F /* ZoomInSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoomInSegue.m; path = View/ZoomInSegue.m; sourceTree = "<group>"; };
+		94EB4C6318E0EFDA00EC9E9F /* TransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionDelegate.m; path = Common/TransitionDelegate.m; sourceTree = "<group>"; };
+		94EB4C6418E0EFDA00EC9E9F /* TransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionDelegate.h; path = Common/TransitionDelegate.h; sourceTree = "<group>"; };
+		94EB4C6518E0EFDA00EC9E9F /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionController.m; path = Common/TransitionController.m; sourceTree = "<group>"; };
+		94EB4C6618E0EFDA00EC9E9F /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionController.h; path = Common/TransitionController.h; sourceTree = "<group>"; };
 		94F077A118DF731E00A6872F /* 04_TV@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "04_TV@2x.png"; path = "Resources/Images/04_TV@2x.png"; sourceTree = "<group>"; };
 		94F077A218DF731E00A6872F /* 03_TV_Shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03_TV_Shadow@2x.png"; path = "Resources/Images/03_TV_Shadow@2x.png"; sourceTree = "<group>"; };
 		94F077A318DF731E00A6872F /* 02_Struts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02_Struts@2x.png"; path = "Resources/Images/02_Struts@2x.png"; sourceTree = "<group>"; };
@@ -89,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B9342218E256F10093CFC5 /* MediaPlayer.framework in Frameworks */,
 				94C4B5DA18D7BEC80049B97B /* CoreGraphics.framework in Frameworks */,
 				94C4B5DC18D7BEC80049B97B /* UIKit.framework in Frameworks */,
 				94C4B5D818D7BEC80049B97B /* Foundation.framework in Frameworks */,
@@ -108,6 +171,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B933E418E251780093CFC5 /* Section7 */ = {
+			isa = PBXGroup;
+			children = (
+				94B933E518E251780093CFC5 /* Animation_v03.0056.png */,
+				94B933E618E251780093CFC5 /* Animation_v03.0104.png */,
+				94B933E718E251780093CFC5 /* BrandingTime_Video_Intro.mp4 */,
+			);
+			name = Section7;
+			path = Resources/Images/Section7;
+			sourceTree = "<group>";
+		};
+		94B933E818E251780093CFC5 /* Section6 */ = {
+			isa = PBXGroup;
+			children = (
+				94B933E918E251780093CFC5 /* House_Screen_Gameover.png */,
+				94B933EA18E251780093CFC5 /* House_Screen_Gameplay01.png */,
+				94B933EB18E251780093CFC5 /* House_Screen_Gameplay02.png */,
+				94B933EC18E251780093CFC5 /* House_Screen_Menu.png */,
+				94B933ED18E251780093CFC5 /* House_Screen_Setup.png */,
+			);
+			name = Section6;
+			path = Resources/Images/Section6;
+			sourceTree = "<group>";
+		};
+		94B933EE18E251780093CFC5 /* Section5 */ = {
+			isa = PBXGroup;
+			children = (
+				94B933EF18E251780093CFC5 /* Game_Screen01.jpg */,
+				94B933F018E251780093CFC5 /* Game_Screen02.jpg */,
+				94B933F118E251780093CFC5 /* Game_Screen03.jpg */,
+				94B933F218E251780093CFC5 /* Game_Screen04.jpg */,
+				94B933F318E251780093CFC5 /* ITGM_320_House_screenshot_01.pdf */,
+				94B933F418E251780093CFC5 /* ITGM_320_House_screenshot_02.pdf */,
+				94B933F518E251780093CFC5 /* ITGM_320_House_screenshot_03.pdf */,
+				94B933F618E251780093CFC5 /* ITGM_320_House_screenshot_04.pdf */,
+			);
+			name = Section5;
+			path = Resources/Images/Section5;
+			sourceTree = "<group>";
+		};
+		94B933F718E251780093CFC5 /* Section4 */ = {
+			isa = PBXGroup;
+			children = (
+				94B933F818E251780093CFC5 /* AHouse_Jelly_01.jpg */,
+				94B933F918E251780093CFC5 /* AHouse_Jelly_02.jpg */,
+				94B933FA18E251780093CFC5 /* Meeper_01.jpg */,
+				94B933FB18E251780093CFC5 /* Meeper_02.jpg */,
+				94B933FC18E251780093CFC5 /* Meeper_03.jpg */,
+			);
+			name = Section4;
+			path = Resources/Images/Section4;
+			sourceTree = "<group>";
+		};
+		94B933FD18E251780093CFC5 /* Section3 */ = {
+			isa = PBXGroup;
+			children = (
+				94B933FE18E251780093CFC5 /* Slime_01.jpg */,
+				94B933FF18E251780093CFC5 /* Slime_02.jpg */,
+				94B9340018E251780093CFC5 /* Slime_03.jpg */,
+				94B9340118E251780093CFC5 /* Slime_04.jpg */,
+				94B9340218E251780093CFC5 /* Slime_05.jpg */,
+				94B9340318E251780093CFC5 /* Slime_06.jpg */,
+				94B9340418E251780093CFC5 /* Slime_07.jpg */,
+			);
+			name = Section3;
+			path = Resources/Images/Section3;
+			sourceTree = "<group>";
+		};
 		94C4B5CB18D7BEC80049B97B = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +261,7 @@
 		94C4B5D618D7BEC80049B97B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94B9342118E256F10093CFC5 /* MediaPlayer.framework */,
 				94C4B5D718D7BEC80049B97B /* Foundation.framework */,
 				94C4B5D918D7BEC80049B97B /* CoreGraphics.framework */,
 				94C4B5DB18D7BEC80049B97B /* UIKit.framework */,
@@ -141,6 +273,7 @@
 		94C4B5DD18D7BEC80049B97B /* AlexHousePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				94EB4C6218E0EFCE00EC9E9F /* Common */,
 				94C4B60F18D7C14A0049B97B /* Resources */,
 				94C4B60E18D7C1450049B97B /* View */,
 				94C4B60D18D7C13F0049B97B /* Model */,
@@ -232,7 +365,11 @@
 		94C4B61118D7C1550049B97B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				94D7990118DFAA2A00999D1F /* Section1 */,
+				94B933E418E251780093CFC5 /* Section7 */,
+				94B933E818E251780093CFC5 /* Section6 */,
+				94B933EE18E251780093CFC5 /* Section5 */,
+				94B933F718E251780093CFC5 /* Section4 */,
+				94B933FD18E251780093CFC5 /* Section3 */,
 				94F077A118DF731E00A6872F /* 04_TV@2x.png */,
 				94F077A218DF731E00A6872F /* 03_TV_Shadow@2x.png */,
 				94F077A318DF731E00A6872F /* 02_Struts@2x.png */,
@@ -245,13 +382,15 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		94D7990118DFAA2A00999D1F /* Section1 */ = {
+		94EB4C6218E0EFCE00EC9E9F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				94D7990218DFAA2A00999D1F /* Slime_02.jpg */,
+				94EB4C6318E0EFDA00EC9E9F /* TransitionDelegate.m */,
+				94EB4C6418E0EFDA00EC9E9F /* TransitionDelegate.h */,
+				94EB4C6518E0EFDA00EC9E9F /* TransitionController.m */,
+				94EB4C6618E0EFDA00EC9E9F /* TransitionController.h */,
 			);
-			name = Section1;
-			path = Resources/Images/Section1;
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,19 +469,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B9340C18E251780093CFC5 /* House_Screen_Setup.png in Resources */,
+				94B9341D18E251780093CFC5 /* Slime_04.jpg in Resources */,
 				94F077A718DF731E00A6872F /* 02_Struts@2x.png in Resources */,
-				94D7990318DFAA2A00999D1F /* Slime_02.jpg in Resources */,
+				94B9340718E251780093CFC5 /* BrandingTime_Video_Intro.mp4 in Resources */,
+				94B9340F18E251780093CFC5 /* Game_Screen03.jpg in Resources */,
+				94B9341E18E251780093CFC5 /* Slime_05.jpg in Resources */,
 				94F077A818DF731E00A6872F /* 01_Background@2x.png in Resources */,
+				94B9341918E251780093CFC5 /* Meeper_03.jpg in Resources */,
+				94B9340D18E251780093CFC5 /* Game_Screen01.jpg in Resources */,
+				94B9340618E251780093CFC5 /* Animation_v03.0104.png in Resources */,
+				94B9340A18E251780093CFC5 /* House_Screen_Gameplay02.png in Resources */,
+				94B9340918E251780093CFC5 /* House_Screen_Gameplay01.png in Resources */,
+				94B9340818E251780093CFC5 /* House_Screen_Gameover.png in Resources */,
 				94F077A518DF731E00A6872F /* 04_TV@2x.png in Resources */,
+				94B9341318E251780093CFC5 /* ITGM_320_House_screenshot_03.pdf in Resources */,
 				94C4B61318D7C3520049B97B /* portfolio.json in Resources */,
+				94B9341B18E251780093CFC5 /* Slime_02.jpg in Resources */,
+				94B9341618E251780093CFC5 /* AHouse_Jelly_02.jpg in Resources */,
 				94C4B61E18D7D40A0049B97B /* background.png in Resources */,
+				94B9342018E251780093CFC5 /* Slime_07.jpg in Resources */,
+				94B9341018E251780093CFC5 /* Game_Screen04.jpg in Resources */,
+				94B9340518E251780093CFC5 /* Animation_v03.0056.png in Resources */,
+				94B9341418E251780093CFC5 /* ITGM_320_House_screenshot_04.pdf in Resources */,
 				94C4B5F018D7BEC80049B97B /* Images.xcassets in Resources */,
+				94B9341518E251780093CFC5 /* AHouse_Jelly_01.jpg in Resources */,
+				94B9341A18E251780093CFC5 /* Slime_01.jpg in Resources */,
 				94C4B61C18D7D40A0049B97B /* foreground.png in Resources */,
 				94C4B61D18D7D40A0049B97B /* background@2x.png in Resources */,
 				94C4B5E218D7BEC80049B97B /* InfoPlist.strings in Resources */,
+				94B9340E18E251780093CFC5 /* Game_Screen02.jpg in Resources */,
 				94F077A618DF731E00A6872F /* 03_TV_Shadow@2x.png in Resources */,
+				94B9341718E251780093CFC5 /* Meeper_01.jpg in Resources */,
+				94B9341F18E251780093CFC5 /* Slime_06.jpg in Resources */,
 				94C4B5EB18D7BEC80049B97B /* Main.storyboard in Resources */,
+				94B9341818E251780093CFC5 /* Meeper_02.jpg in Resources */,
+				94B9341C18E251780093CFC5 /* Slime_03.jpg in Resources */,
+				94B9341118E251780093CFC5 /* ITGM_320_House_screenshot_01.pdf in Resources */,
 				94C4B61B18D7D40A0049B97B /* foreground@2x.png in Resources */,
+				94B9341218E251780093CFC5 /* ITGM_320_House_screenshot_02.pdf in Resources */,
+				94B9340B18E251780093CFC5 /* House_Screen_Menu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,9 +527,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EB4C6818E0EFDA00EC9E9F /* TransitionController.m in Sources */,
 				94D7990918E092F400999D1F /* ZoomOutSegue.m in Sources */,
 				94C4B61618D7CFD60049B97B /* ViewController.m in Sources */,
 				94C4B5E818D7BEC80049B97B /* AppDelegate.m in Sources */,
+				94EB4C6718E0EFDA00EC9E9F /* TransitionDelegate.m in Sources */,
 				94D7990C18E0942900999D1F /* ZoomInSegue.m in Sources */,
 				94C4B5E418D7BEC80049B97B /* main.m in Sources */,
 				94D7990618DFB1F400999D1F /* DetailsViewController.m in Sources */,

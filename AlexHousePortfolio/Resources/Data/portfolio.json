@@ -18,23 +18,57 @@
       },
       {
         "viewFrame": "538,245,158,89",
-        "thumbnail": "Slime_02.jpg"
+        "thumbnail": "AHouse_Jelly_01.jpg",
+        "images": [
+          "AHouse_Jelly_01.jpg",
+          "AHouse_Jelly_02.jpg",
+          "Meeper_01.jpg",
+          "Meeper_02.jpg",
+          "Meeper_03.jpg"
+        ]
       },
       {
         "viewFrame": "766,83,159,91",
-        "thumbnail": "Slime_02.jpg"
+        "thumbnail": "Slime_01.jpg",
+        "images": [
+          "Slime_01.jpg",
+          "Slime_02.jpg",
+          "Slime_03.jpg",
+          "Slime_04.jpg",
+          "Slime_05.jpg",
+          "Slime_06.jpg",
+          "Slime_07.jpg"
+        ]
       },
       {
         "viewFrame": "83,488,205,115",
-        "thumbnail": "Slime_02.jpg"
+        "thumbnail": "Game_Screen01.jpg",
+        "images": [
+          "Game_Screen01.jpg",
+          "Game_Screen02.jpg",
+          "Game_Screen03.jpg",
+          "Game_Screen04.jpg"
+        ]
       },
       {
         "viewFrame": "342,607,180,103",
-        "thumbnail": "Slime_02.jpg"
+        "thumbnail": "House_Screen_Menu.png",
+        "images": [
+          "House_Screen_Menu.png",
+          "House_Screen_Setup.png",
+          "House_Screen_Gameplay01.png",
+          "House_Screen_Gameplay02.png",
+          "House_Screen_Gameover.png"
+        ]
       },
       {
         "viewFrame": "758,517,205,117",
-        "thumbnail": "Slime_02.jpg"
+        "thumbnail": "Animation_v03.0056.png",
+        "videoFile": "BrandingTime_Video_Intro",
+        "images": [
+          "Animation_v03.0056.png",
+          "Animation_v03.0104.png"
+        ]
       }
   ]
 }
